@@ -1,20 +1,12 @@
 import React from 'react'
+import Navbar from './Navbar';
 
-const Header = ({ title }) => {
+const Header = () => {
   return (
-    <header>
-        <h1 style={headingStyle}>{title}</h1>
-    </header>
+    <>
+      <Navbar />
+    </>
   )
-}
-
-Header.defaultProps = {
-    title: 'Task Tracker'
-}
-
-const headingStyle = {
-    color: 'white',
-    background: 'black'
 }
 
 export default Header

@@ -1,13 +1,11 @@
 import React from 'react'
-import Button from './Button'
 
-function Main() {
+function Home() {
   return (
     <>
-        <h1>Task Tracker</h1>
-        <Button text="Add"/>
+        <h1>Home Page</h1>
     </>
   )
 }
 
-export default Main
+export default Home
