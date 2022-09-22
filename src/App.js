@@ -1,10 +1,14 @@
-function App() {
-  const name = 'Vic'
+import Header from "./components/Header";
+import Home from "./components/Home";
 
+function App() {
   return (
-    <div className="container">
-      <h1>Hello From {name}</h1>
-    </div>
+    <>
+      <Header />
+      <div className="container">
+        <Home />
+      </div>
+    </>
   );
 }
 
